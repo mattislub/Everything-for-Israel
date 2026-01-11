@@ -112,7 +112,11 @@ button {
 
 .hero {
   padding: 5rem 0 4rem;
-  background: linear-gradient(135deg, #f1efe7 0%, #eef1f4 100%);
+  background: linear-gradient(135deg, rgba(241, 239, 231, 0.55) 0%, rgba(238, 241, 244, 0.55) 100%),
+    url('https://images.pexels.com/photos/2245276/pexels-photo-2245276.jpeg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero__content {
