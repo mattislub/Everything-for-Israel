@@ -10,10 +10,6 @@ const PackagesSection = () => {
                 Clear pricing, flexible lists, and delivery straight to the right address.
               </p>
             </div>
-            <p className="packages__note">
-              Explore a dedicated page with every bundle, including what&apos;s inside and upgrade
-              options.
-            </p>
             <a className="button button--dark packages__button" href="#all-packages">
               See all packages
             </a>
