@@ -5,13 +5,14 @@ const PackagesSection = () => {
         <div className="packages__layout">
           <div className="packages__content">
             <div className="section__title">
+              <span className="packages__eyebrow">Ready to send with confidence</span>
               <h2 className="packages__title">Ready-made packages</h2>
               <p className="packages__subtitle">
-                Clear pricing,
-                <br />
-                flexible lists,
-                <br />
-                and delivery straight to the right address.
+                <span className="packages__subtitle-line">Clear pricing,</span>
+                <span className="packages__subtitle-line">flexible lists,</span>
+                <span className="packages__subtitle-line">
+                  and delivery straight to the right address.
+                </span>
               </p>
             </div>
             <a className="button button--dark packages__button" href="#all-packages">
