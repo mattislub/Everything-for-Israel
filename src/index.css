@@ -212,6 +212,12 @@ button {
   gap: 1.5rem;
 }
 
+.packages__note {
+  font-size: 1.05rem;
+  color: #334559;
+  margin: 0;
+}
+
 .packages__media {
   display: flex;
   justify-content: flex-end;
@@ -233,6 +239,26 @@ button {
   height: 100%;
   border-radius: 48% 52% 46% 54% / 48% 58% 42% 52%;
   object-fit: cover;
+}
+
+.packages-page__hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.packages-page__hero h1 {
+  font-size: clamp(2rem, 3.5vw, 2.8rem);
+  margin: 0 0 1rem;
+}
+
+.packages-page__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .grid {
