@@ -5,8 +5,10 @@ const PackagesSection = () => {
         <div className="packages__layout">
           <div className="packages__content">
             <div className="section__title">
-              <h2>Ready-made packages</h2>
-              <p>Clear pricing, flexible lists, and delivery straight to the right address.</p>
+              <h2 className="packages__title">Ready-made packages</h2>
+              <p className="packages__subtitle">
+                Clear pricing, flexible lists, and delivery straight to the right address.
+              </p>
             </div>
             <p className="packages__note">
               Explore a dedicated page with every bundle, including what&apos;s inside and upgrade
