@@ -199,12 +199,17 @@ button {
   margin-bottom: 2rem;
 }
 
-.packages__intro {
+.packages__layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr);
   gap: 2rem;
-  align-items: center;
+  align-items: start;
   margin-bottom: 2.5rem;
+}
+
+.packages__content {
+  display: grid;
+  gap: 1.5rem;
 }
 
 .packages__media {
@@ -349,7 +354,7 @@ button {
     align-items: flex-start;
   }
 
-  .packages__intro {
+  .packages__layout {
     grid-template-columns: 1fr;
   }
 
