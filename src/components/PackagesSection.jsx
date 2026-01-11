@@ -14,7 +14,7 @@ const PackagesSection = () => {
               Explore a dedicated page with every bundle, including what&apos;s inside and upgrade
               options.
             </p>
-            <a className="button button--dark" href="#all-packages">
+            <a className="button button--dark packages__button" href="#all-packages">
               See all packages
             </a>
           </div>

@@ -229,8 +229,14 @@ button {
 
 .packages__note {
   font-size: 1.05rem;
-  color: #334559;
+  color: #27384b;
   margin: 0;
+  padding: 1.1rem 1.4rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(231, 234, 223, 0.6), rgba(228, 236, 245, 0.85));
+  border: 1px solid rgba(28, 47, 79, 0.12);
+  box-shadow: 0 12px 24px rgba(16, 39, 68, 0.08);
+  max-width: 34rem;
 }
 
 .packages__media {
@@ -340,6 +346,30 @@ button {
 
 .button--dark {
   background: #1c2f4f;
+}
+
+.packages__button {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.8rem;
+  background: linear-gradient(135deg, #1c2f4f, #2c4e74);
+  box-shadow: 0 10px 24px rgba(16, 39, 68, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+  text-decoration: none;
+}
+
+.packages__button::after {
+  content: "→";
+  font-size: 1.1rem;
+}
+
+.packages__button:hover,
+.packages__button:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 30px rgba(16, 39, 68, 0.28);
+  filter: brightness(1.05);
 }
 
 .customize {
