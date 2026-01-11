@@ -212,6 +212,21 @@ button {
   gap: 1.5rem;
 }
 
+.packages__title {
+  font-size: clamp(2.2rem, 3.5vw, 3.2rem);
+  line-height: 1.15;
+  letter-spacing: 0.015em;
+  margin: 0 0 0.75rem;
+}
+
+.packages__subtitle {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 34rem;
+  margin: 0;
+  color: #3c4b5f;
+}
+
 .packages__note {
   font-size: 1.05rem;
   color: #334559;
