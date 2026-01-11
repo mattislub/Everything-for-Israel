@@ -199,6 +199,21 @@ button {
   margin-bottom: 2rem;
 }
 
+.packages__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  background: rgba(39, 56, 75, 0.08);
+  color: #27384b;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
 .packages__layout {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.7fr);
@@ -225,6 +240,12 @@ button {
   max-width: 34rem;
   margin: 0;
   color: #3c4b5f;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.packages__subtitle-line {
+  display: block;
 }
 
 .packages__note {
